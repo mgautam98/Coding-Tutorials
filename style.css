@@ -1,0 +1,154 @@
+body{
+  font-family: 'Roboto';
+}
+#container{
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.brand{
+  text-decoration: none;
+  float: left;
+}
+
+.form{
+  float: right;
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  border-radius: 5px;
+  width: 400px;
+  height: 50px;
+  padding: 20px 10px 0 10px;
+}
+/*Editing the brand*/
+h1 a{
+  font-size: 50px;
+  font-weight: 100;
+  color: #861BBF;
+}
+
+.header{
+  height: 100px;
+  padding: 10px 0;
+}
+/*floating the text bar to left and submit to right*/
+.text{
+  float: left;
+  width: 200px;
+  padding: 5px;
+  font-size: 15px;
+  color: #E36A0C;
+}
+.submit{
+  float: right;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+  background: #861BBF;
+  font-size: 15px;
+}
+
+ul{
+  list-style: none;
+}
+
+.menu{
+  height: 70px;
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  padding: 7px 0;
+  border-radius: 10px;
+}
+
+.menu ul li{
+  float: left;
+  padding: 0 30px;
+  height: 20px;
+  border-right: 1px solid #392356;
+  line-height: 20px;
+}
+.menu ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #392356;
+  transition: font-size 0.25s ease;
+  -webkit-transition: font-size 0.25s ease;
+  -moz-transition: font-size 0.25s ease;
+  -o-transition: font-size 0.25s ease;
+}
+.menu ul li:last-child{
+  border-right: none;
+}
+
+.menu ul li a:hover, .menu ul li a.active, .sidebar ul li a:hover{
+  font-size: 17px;
+  font-weight: bold;
+  color: #861BBF;
+}
+
+.introduction{
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.introduction h3{
+  font-size: 25px;
+  color: #1a6d08;
+  font-weight: normal;
+}
+.introduction p{
+  color: #1a6d08;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.sidebar{
+  height: 300px;
+  width: 450px;
+  border: 1px solid #BAF46F;
+  border-radius: 20px;
+  padding: 10px 30px;
+}
+
+.leftSideBar{
+  float: left;
+}
+.rightSideBar{
+  float: right;
+}
+
+.sidebar h3{
+  color: #861BBF;
+  font-size: 25px;
+}
+
+.sidebar ul li a{
+  text-decoration: none;
+  color: #5d12e7;
+  font-size: 17px;
+  transition: font-size 0.25s ease;
+  -webkit-transition: font-size 0.25s ease;
+  -moz-transition: font-size 0.25s ease;
+  -o-transition: font-size 0.25s ease;
+}
+
+.leftSideBar ul li{
+  padding-bottom: 8px;
+}
+.rightSideBar ul li{
+  padding-bottom: 8px;
+}
+
+.clear{
+  clear: both;
+}
+
+.footer{
+  height: 60px;
+  background: linear-gradient(to right, #56ccf2, #2f80ed);
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin: 10px auto;
+  color: #1a6d08;
+}
